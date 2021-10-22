@@ -1,3 +1,9 @@
+node_modules
+.env
+.vscode
+package-lock.json
+.DS_Store
+
 # Compiled class file
 *.class
 
