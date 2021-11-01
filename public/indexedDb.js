@@ -22,7 +22,7 @@ request.onupgradeneeded = function (e) {
 
     console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
 
-    let db = e.target.result;
+     db = e.target.result;
 
     if (db.objectStoreNames.length === 0) {
         db.createObjectStore('BudgetStore', { autoIncrement: true });
