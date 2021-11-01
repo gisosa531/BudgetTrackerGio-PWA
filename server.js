@@ -18,8 +18,6 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/spooky-witch-70926",
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
     useFindAndModify: false
   }
 );
