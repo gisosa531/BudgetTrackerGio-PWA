@@ -5,6 +5,7 @@ const FILES_TO_CACHE = [
   "/indexedDb.js",
   "/manifest.webmanifest",
   "/styles.css",
+  "/favicon.ico",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png"
 ];
