@@ -27,7 +27,7 @@ This app is a Budget Tracker with offline capability and access. The user will b
 The first step is to open the indicated file (server.js) in an integrated terminal. 
 Using Node.js, we use the following command:
 ```
-node server.js 
+npm start
 ```
 
 
@@ -49,7 +49,23 @@ Thanks to:
 
 ## Images
 Home Page:
-<img src="./public/images/HomePage.png" alt="The start page of the deployed Heroku Tracker Site">
+This is the page when accessing the site.
+<img src="./public/images/HomePage.png" alt="The start page of the deployed Heroku Budget Tracker Site">
+
+Offline Mode: 
+We are able to verify and add items while offline by toggling on Offline mode in the application section of the console log. We can then input items while being Offline.
+
+<img src="./public/images/OfflineAdd.png" alt="Offline mode ">
+
+Two Entries Queued:
+The entries will be queued and displayed in the indexed database while online. In order to have them displayed and optimized with the existing data, we have to toggle back online and refresh.
+
+<img src="./public/images/queued.png" alt="Two entries queued while offline">
+
+Online Mode:
+The information will then be displayed with the existing transactions. 
+
+<img src="./public/images/Online.png" alt="Entries displayed when online">
 
 ## Contact Information
 If you have any problems concerning the repo, please file an issue or email me at 
